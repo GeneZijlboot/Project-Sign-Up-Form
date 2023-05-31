@@ -14,42 +14,45 @@
                 <p class="FirstText">Apply Now</p>
                 <div class="Form">
                     <div>
-                        <form class="LeftForm">
-                            <label for="FirstName">First Name</label>
-                            <br>
-                            <input type="name" id="FirstName" name="FirstName" required>
-                            <br>
-                            <label for="Email">Email</label>
-                            <br>
-                            <input type="Email" id="Email" name="Email" required>
-                            <br>
-                            <label for="Password">Password</label>
-                            <br>
-                            <input type="Password" id="Password" name="Password" required>
-                        </form>
-                    </div>
-                    <div>
-                        <form clas="RightForm">
-                            <label for="LastName">Last Name</label>
-                            <br>
-                            <input type="name" id="LastName" name="LastName" required>
-                            <br>
-                            <label for="tel">Phone Number</label>
-                            <br>
-                            <input type="tel" id="tel" name="tel" required>
-                            <br>
-                            <label for="password">Confirm password</label>
-                            <br>
-                            <input type="password" id="password" name="password" minlength="8" required>
+                        <form id="myform" class="LeftForm">
+                            <div class="inputzooi">
+                                <div class="A">
+                                    <label for="FirstName">First Name</label>
+                                    <br>
+                                    <input type="name" id="FirstName" name="FirstName" required>
+                                    <br>
+                                    <label for="Email">Email</label>
+                                    <br>
+                                    <input type="Email" id="Email" name="Email" required>
+                                    <br>
+                                    <label for="Password">Password</label>
+                                    <br>
+                                    <input type="Password" id="Password" name="Password" required>
+                                </div>
+                                <div class="B">
+                                    <label for="LastName">Last Name</label>
+                                    <br>
+                                    <input type="name" id="LastName" name="LastName" required>
+                                    <br>
+                                    <label for="tel">Phone Number</label>
+                                    <br>
+                                    <input type="tel" id="tel" name="tel" required>
+                                    <br>
+                                    <label for="ConfirmPassword">Confirm password</label>
+                                    <br>
+                                    <input type="password" id="ConfirmPassword" name="password" minlength="8" required>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
-                <button class="button">Create Account</button>
+                <input type="button" form="myform" onclick="CheckPassword()" class="button" value="Create Account">
                 <p class="FourthText">Already have an account? <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Log in</a></p>
             </div>
         </div>
         <div>
-            <a href="https://genezijlboot.github.io/Sign-Up-Form/" id="MadeBy">Copyright © Gene Zijlmans</a>
+            <a href="https://github.com/GeneZijlboot/Sign-Up-Form" id="MadeBy">Copyright © Gene Zijlmans</a>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
