@@ -1,4 +1,4 @@
-unction CheckPassword(){
+function CheckPassword(){
     let Password = document.getElementById("Password");
     let ConfirmPassword = document.getElementById("ConfirmPassword");
     console.log(Password.value, ConfirmPassword.value);

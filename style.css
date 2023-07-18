@@ -17,9 +17,6 @@ body{
   */
 }
 
-.Sign-Up-Section{
-}
-
 .ImageHolder{
   border-radius: 40px;
   border: 2px solid black;
@@ -95,8 +92,6 @@ a{
   padding: 10px;
   border: 2px black solid;
   border-radius: 20px;
-  margin-top: 300px;
-  margin-top: 15%;
   margin-left: 40%;
   margin-right: 40%;
   cursor: pointer;
